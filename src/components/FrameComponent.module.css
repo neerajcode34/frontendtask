@@ -1,0 +1,99 @@
+.frameChild,
+.imageIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 453px;
+  height: 1600px;
+  object-fit: cover;
+}
+.frameChild {
+  top: 252px;
+  left: 35px;
+  border-radius: 50%;
+  width: 118px;
+  height: 118px;
+  display: none;
+}
+.blankLine {
+  margin: 0;
+}
+.frameItem,
+.text {
+  cursor: pointer;
+  position: absolute;
+  top: 32px;
+  left: 73px;
+  display: none;
+  width: 112px;
+  height: 16px;
+}
+.frameItem {
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  top: 12px;
+  left: 330px;
+  border-radius: 25px;
+  width: 103px;
+  height: 56px;
+}
+.frameChild1,
+.frameInner,
+.rectangleButton,
+.text1,
+.text2,
+.text3 {
+  cursor: pointer;
+  position: absolute;
+  top: 571px;
+  left: 0;
+  display: none;
+  width: 453px;
+  height: 287px;
+}
+.frameChild1,
+.frameInner,
+.rectangleButton,
+.text2,
+.text3 {
+  top: 858px;
+  height: 362px;
+}
+.frameChild1,
+.frameInner,
+.rectangleButton,
+.text3 {
+  top: 1220px;
+  height: 380px;
+}
+.frameChild1,
+.frameInner,
+.rectangleButton {
+  border: 0;
+  padding: 0;
+  background-color: var(--color-gainsboro);
+  top: 600px;
+  left: 400px;
+  width: 35px;
+  height: 41px;
+}
+.frameChild1,
+.rectangleButton {
+  top: 906px;
+  height: 46px;
+}
+.frameChild1 {
+  top: 1273px;
+  height: 40px;
+}
+.imageParent {
+  background-color: var(--color-white);
+  width: 453px;
+  height: 1600px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
